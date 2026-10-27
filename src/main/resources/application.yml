@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: control-acceso
+  datasource:
+    url: jdbc:h2:mem:acceso;DB_CLOSE_DELAY=-1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
